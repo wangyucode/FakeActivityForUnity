@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UnityActivity">
+
+    <FrameLayout
+        android:id="@+id/unity_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fake_activity_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/main_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="120dp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="#dd000000"/>
+
+
+</FrameLayout>
